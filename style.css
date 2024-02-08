@@ -18,7 +18,7 @@ section:first-of-type > .logo-section{
     background-color: black;
     position: absolute;
     top: 20%;
-    opacity: 0.8;
+    opacity: 0.6;
     display: flex;
     gap: -10px;
     align-items: center;
@@ -43,3 +43,8 @@ img[src="img/vista-wei-OiERUvVrioU-unsplash.jpg"]{
     font-size: 3em;
 
 }
+ section:first-of-type > div:last-of-type{
+    position: absolute;
+    bottom: 10px;
+    
+ }
