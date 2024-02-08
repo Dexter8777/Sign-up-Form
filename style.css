@@ -1,3 +1,8 @@
+@font-face {
+    font-family: norse-bold ;
+    src: url(Norse-Bold.otf);
+}
+
 *{
     box-sizing: border-box;
 }
@@ -26,6 +31,10 @@ section:first-of-type > .logo-section{
     justify-content: center;
     padding: 15px 0;
 
+}
+
+.section-one > .logo-section > h1 {
+    font-family: norse-bold, sans-serif;
 }
 
 img[src="img/vista-wei-OiERUvVrioU-unsplash.jpg"]{
