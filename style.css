@@ -4,6 +4,7 @@
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    display: flex;
 }
 
 section:first-of-type{
@@ -56,4 +57,10 @@ img[src="img/vista-wei-OiERUvVrioU-unsplash.jpg"]{
 
  section:first-of-type > div:last-of-type > p, a {
     color: white
+ }
+
+ section:last-of-type{
+    width: 70vw;
+    height: 100vh;
+    border: 1px solid red;
  }
