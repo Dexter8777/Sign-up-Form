@@ -53,3 +53,7 @@ img[src="img/vista-wei-OiERUvVrioU-unsplash.jpg"]{
  section:first-of-type > div:last-of-type > p {
     text-align: center;
  }
+
+ section:first-of-type > div:last-of-type > p, a {
+    color: white
+ }
