@@ -45,6 +45,11 @@ img[src="img/vista-wei-OiERUvVrioU-unsplash.jpg"]{
 }
  section:first-of-type > div:last-of-type{
     position: absolute;
-    bottom: 10px;
-    
+    bottom: 0px;
+    margin: auto;
+    width: 100%;
+ }
+
+ section:first-of-type > div:last-of-type > p {
+    text-align: center;
  }
