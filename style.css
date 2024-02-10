@@ -64,12 +64,11 @@ img[src="img/vista-wei-OiERUvVrioU-unsplash.jpg"]{
     text-align: center;
  }
 
- section:first-of-type > div:last-of-type > p, a {
+ section:first-of-type > div:last-of-type > p, a.credits {
     color: white
  }
 
  section:last-of-type{
     width: 70vw;
     height: 100vh;
-    border: 1px solid red;
  }
