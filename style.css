@@ -72,3 +72,14 @@ img[src="img/vista-wei-OiERUvVrioU-unsplash.jpg"]{
     width: 70vw;
     height: 100vh;
  }
+
+ input,
+ label,
+ button {
+    display: block;
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 5px;
+    height: 30px;
+ }
