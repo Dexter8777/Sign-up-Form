@@ -104,3 +104,9 @@ form > .form {
 div.form{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;
 }
+
+form > div:first-of-type,
+form > .form > fieldset > legend {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
