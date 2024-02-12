@@ -103,6 +103,7 @@ form > .form {
 }
 div.form{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding-bottom: 30px;
 }
 
 form > div:first-of-type{
