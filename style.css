@@ -102,7 +102,7 @@ form > .form {
     padding-left: 5px;
 }
 div.form{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 form > div:first-of-type{
@@ -127,4 +127,8 @@ div > button[type='submit'] {
     border-radius: 5px;
     height: 5vh;
     background-color: #F5D2D2;
+}
+
+form > div:last-child{
+    margin-top: 40px;
 }
