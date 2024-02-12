@@ -105,12 +105,14 @@ div.form{
 form > div:first-of-type{
     margin:100px 0 40px 0;
 }
+
 form > div:first-of-type,
 form > .form > fieldset > legend {
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 label {
     text-transform: uppercase;
+    font-size: 0.8rem;
 }
