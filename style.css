@@ -73,8 +73,7 @@ img[src="img/vista-wei-OiERUvVrioU-unsplash.jpg"]{
     height: 100vh;
  }
 
- input,
- button {
+ input {
     display: block;
     font-family: inherit;
     font-size: 100%;
@@ -110,4 +109,8 @@ form > div:first-of-type,
 form > .form > fieldset > legend {
     font-weight: bold;
     font-size: 1.1rem;
+}
+
+label {
+    text-transform: uppercase;
 }
