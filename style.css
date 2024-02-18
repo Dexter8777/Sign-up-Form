@@ -149,3 +149,13 @@ form > div:last-child > p > a {
 div.form input[class='error'] {
     outline: 1px solid red;
 }
+
+div.form > fieldset > div:nth-last-child(2){
+    position: relative;
+}
+
+div.form input[class='error'] + span::after{
+    content: '* Passwords do not match';
+    color: red;
+    position: absolute;
+}
