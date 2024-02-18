@@ -106,6 +106,7 @@ form > div {
 
 form > .form {
     padding-left: 5px;
+    width: 100%;
 }
 div.form{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -139,7 +140,12 @@ div > button[type='submit'] {
 form > div:last-child{
     margin-top: 40px;
 }
+
 form > div:last-child > p > a {
     color: black;
     text-decoration: none;
+}
+
+div.form input[class='error'] {
+    outline: 1px solid red;
 }
