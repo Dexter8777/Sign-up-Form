@@ -1,15 +1,12 @@
-confirmPassword = document.getElementById('confirmPassword');
 password = document.getElementById('password');
+confirmPassword = document.getElementById('confirmPassword');
 
 password.classList.toggle('error');
 confirmPassword.classList.toggle('error');
 
-function matchPassword(confirmPassword, password) {
-    if (password !== confirmPassword) {
+confirmPassword.addEventListener('focusout', ()=>{
+    if (password.value != confirmPassword.value){
         password.classList.toggle('error');
-        confirmPassword.classList.toggle('error');
-    } else {
-        return;
+        confirmPassword.classList.toggle('error');  
     }
-}
-
+})
